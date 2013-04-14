@@ -37,7 +37,7 @@ function pdf_shortcode( $atts , $content = null ) {
 	);
 
 	// Code
-	return '<object data="'.$content.'" type="application/pdf" width="'.$width.'" height="'.$height.'"><p>Your web browser doesn't have a PDF plugin. Instead you can <a href="'.$content.'">click here to
+	return '<object data="'.$content.'" type="application/pdf" width="'.$width.'" height="'.$height.'"><p>Your web browser does not have a PDF plugin. Instead you can <a href="'.$content.'">click here to
   download the PDF file.</a></p></object>';
 }
 add_shortcode( 'pdf', 'pdf_shortcode' );
